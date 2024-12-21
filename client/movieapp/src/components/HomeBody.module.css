@@ -1,4 +1,12 @@
 .container{
     display: flex;
-    grid-template-columns: 1fr 4fr;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.allCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 83%;
 }

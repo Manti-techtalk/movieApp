@@ -10,21 +10,24 @@ function HomeBody() {
         <div>
             <SideBar/>
         </div>
-        <div>
+        <div className={styles.allCards}>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
+            <MovieCard/>
             <MovieCard/>
         </div>
-        <div>
-            <MovieCard/>
-        </div>
-        <div>
-            <MovieCard/>
-        </div>
-        <div>
-            <MovieCard/>
-        </div>
-        <div>
-            <MovieCard/>
-        </div>
+        
     </div>
   )
 }
