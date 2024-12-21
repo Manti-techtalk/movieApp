@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Header.module.css'
 import { useState } from 'react'
+import {Link} from 'react-router-dom'
 
 function Header() {
     const [search,setSearch] = useState('')
@@ -27,7 +28,9 @@ function Header() {
             placeholder='search movies' />
         </div>
         <div className={styles.login}>
-            <button className={styles.login}>Login</button>
+            <button className={styles.login}>
+               <Link className={styles.links} to='/register'>Login</Link> 
+            </button>
         </div>
     </header>
   )

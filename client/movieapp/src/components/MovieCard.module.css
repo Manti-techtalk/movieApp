@@ -1,19 +1,46 @@
-.container{
-    background-color: #16213e;
-    color: white;
-    width: 200px;
-    height: 300px;
-    margin: 10px;
+/* MovieCard.module.css */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     padding: 20px;
-    border-radius: 10px;
-}
-.big{
-    width: 90%;
-    height: 70%;
-    margin: 0 auto;
-    background-color: #2c3158;
+    background-color: #f0f0f0;
 }
 
-.rating i{
-    color: red;
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Adds a lift effect on hover */
+}
+
+.big img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #ffd700; /* Gold color for the stars */
+}
+
+i {
+    margin: 0 2px;
 }
