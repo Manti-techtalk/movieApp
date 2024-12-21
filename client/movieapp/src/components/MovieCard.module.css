@@ -1,0 +1,19 @@
+.container{
+    background-color: #16213e;
+    color: white;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.big{
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: #2c3158;
+}
+
+.rating i{
+    color: red;
+}

@@ -1,11 +1,12 @@
 .container{
-    background-color: #2c3158;
+    background-color: #16213e;
     color: white;
     width: 200px;
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
 }
+
 .cont{
     width: 90%;
     background-color:#1a1a2e;

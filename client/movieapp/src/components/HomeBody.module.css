@@ -1,4 +1,4 @@
 .container{
     display: flex;
-    
+    grid-template-columns: 1fr 4fr;
 }
